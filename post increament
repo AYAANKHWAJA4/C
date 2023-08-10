@@ -1,0 +1,21 @@
+#include <stdio.h>
+ int main () 
+ {
+     int x=0;
+    int a = 12;
+    x = ++a;
+    (" after  pre increament : /n " );
+    printf ("value of a=%d and value of x=%d ",a,x ) ;
+    int y = 0;
+    int b = 20;
+    b=y++ ;
+    printf("afterpost inreament :/n " );
+     printf ("value of y = %d and value of b=%d", y,b);
+   
+    
+    
+    
+
+    
+    
+}
