@@ -1,0 +1,14 @@
+//
+#include <stdio.h>
+ int main () 
+ {
+     int a =40;
+     int x=0;
+     x = --a;
+     printf ("after pre decreament:\n") ;
+     printf("value of a=%d and x=%d ",a,x);
+     printf ("\n");
+     x=a--;
+     printf("after post decreament :\n");
+     printf("value of a=%d and value of x=%d",a ,x );
+ } 
